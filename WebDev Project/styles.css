@@ -1,0 +1,15 @@
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    font-family: Arial, sans-serif; /* Default font */
+  }
+  
+  /* Main content container */
+  .container {
+    padding: 20px;
+    color : #6bff93;
+  }
+
+  h1 {
+    color: #ff6b6b; /* Bright pink */
+  }
