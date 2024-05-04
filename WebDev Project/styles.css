@@ -7,9 +7,14 @@ body {
   /* Main content container */
   .container {
     padding: 20px;
-    color : #6bff93;
+    color : #044215;
   }
 
   h1 {
     color: #ff6b6b; /* Bright pink */
   }
+
+  .custom-video {
+    max-width: 2000px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the video */
+}
