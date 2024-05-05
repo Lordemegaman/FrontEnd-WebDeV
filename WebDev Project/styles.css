@@ -45,3 +45,8 @@ body {
  #gallery {
 	text-align: center;
 }
+
+.custom-image {
+  width: 400px; 
+  height: auto; 
+}
