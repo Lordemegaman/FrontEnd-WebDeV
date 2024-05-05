@@ -50,3 +50,8 @@ body {
   width: 400px; 
   height: auto; 
 }
+
+.embed-responsive-item {
+  width : 700px;
+  height: 400px;
+}
