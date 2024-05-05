@@ -55,3 +55,24 @@ body {
   width : 700px;
   height: 400px;
 }
+
+.list_change {
+  list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; 
+}
+.list_change li {
+  float: left;
+}
+
+.list_change li { 
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.list_change li:hover {
+  background-color: #f1f1f1;
+}
