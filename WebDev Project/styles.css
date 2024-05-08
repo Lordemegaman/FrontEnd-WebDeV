@@ -76,3 +76,9 @@ body {
 .list_change li:hover {
   background-color: #f1f1f1;
 }
+
+.form-group {
+  margin-bottom: 15px;
+  padding: 0px 0px 0px 20px;
+  
+}
