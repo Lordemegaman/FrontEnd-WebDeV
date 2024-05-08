@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('newsletterForm');
 
+    if (!form) {
+        console.error("Form element with id 'newsletterForm' not found.");
+        return;
+
+    }
+
     const loadForm = () => {
         form.elements['inputEmail4'].value = sessionStorage.getItem('inputEmail4') || '';
         form.elements['inputPassword4'].value = sessionStorage.getItem('inputPassword4') || '';
